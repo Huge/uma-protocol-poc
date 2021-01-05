@@ -1,0 +1,6 @@
+Problém v https://docs.umaproject.org/developers/setup `npx ganache-cli…`
+  identický s https://github.com/trufflesuite/ganache-cli/issues/732
+  překonán `yay install nvm` ; source /usr/share/nvm/init-nvm.sh # see https://aur.archlinux.org/packages/nvm/#pinned-764001 ; nvm use 12 && npm install ganache-cli -g;    
+    pak už šlo `ganache-cli -p 9545 -e 1000000 -l 10000000` i `cd /home/huge/prog/uma-protocol-poc/packages/core && yarn truffle test --network test
+
+Zmínil jsem též v https://discord.com/channels/718590743446290492/718591751543062548/796027859637764106 , radili též nvm downgrade a uznávají, že docs are lacking.
